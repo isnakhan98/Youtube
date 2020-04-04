@@ -1,0 +1,62 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Account
+    </ion-title>
+
+    <ion-buttons start>
+      <button ion-button (click)="dismiss()">
+      <ion-icon name="close"></ion-icon>
+      </button>
+    </ion-buttons>
+</ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item>
+      <ion-icon name=person item-start></ion-icon>
+      My channel
+    </ion-item>
+
+    <ion-item>
+      <ion-icon name="stats" item-start></ion-icon>
+      Time watched
+    </ion-item>
+
+    <ion-item>
+      <ion-icon name="logo-usd" item-start></ion-icon>
+      Paid memberships
+    </ion-item>
+
+    <ion-item>
+      <ion-icon name="contacts" item-start></ion-icon>
+      Switch accounts
+    </ion-item>
+
+    <ion-item>
+      <ion-icon name="sunny" item-start></ion-icon>
+      Turn on incognito
+    </ion-item>
+
+    <hr>
+
+    <ion-item (click)="goTosettingsPage()">
+      <ion-icon name="cog" item-start></ion-icon>
+      Settings
+    </ion-item>
+
+    <ion-item>
+
+      <ion-icon name="lock" item-start></ion-icon>
+      Terms & privacy policy
+    </ion-item>
+
+    <ion-item (click)="open_Modal_help()">
+      <ion-icon ios="ios-help" md="md-help" item-start></ion-icon>
+      Help & Feedback
+    </ion-item>
+
+  </ion-list>
+
+</ion-content>

@@ -1,0 +1,15 @@
+page-account {
+    .item-inner {
+        border-bottom:none !important;
+        border-top: none !important;
+    }
+
+    hr{
+        height: 2px;
+    }
+
+    .list-ios > .item-block:last-child, .list-ios > .item-wrapper:last-child .item-block{
+        border-bottom:none !important;
+    }
+}
+

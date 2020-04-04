@@ -1,0 +1,19 @@
+
+<ion-header>
+  <ion-navbar>
+    <ion-title>search</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+
+    <ion-searchbar (ionInput)="getTopics($event)">
+      </ion-searchbar>
+      
+        <ion-list>
+          <ion-item (click)="onViewQuote(account)">
+          </ion-item>
+        </ion-list>
+
+</ion-content>

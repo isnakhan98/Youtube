@@ -1,0 +1,41 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Help
+    </ion-title>
+
+    <ion-buttons start>
+
+      <button ion-button (click)="dismiss()">
+        <ion-icon name="close" style=font-size:20px;></ion-icon>
+      </button>
+
+      <button ion-button (click)="presentPopover($event)">
+        <ion-icon name="md-more" style=font-size:20px;></ion-icon>
+      </button>
+      
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <p><b>How can we help you?</b></p>
+  <ion-list>
+    <ion-item>
+      <ion-label floating>Describe your issue</ion-label>
+      <ion-input type="" text-input-highlight-color-valid: #3ebfe2; style="background-color:  #d6d8dd;"></ion-input>
+    </ion-item>
+  </ion-list>
+  <hr>
+  <ion-icon name="chatbubbles" style="color:blue"></ion-icon>
+  Send Feedback
+  <hr>
+  <br>
+  <b>Popular Articles</b>
+  <br>
+
+  <p text-center> No results found.</p>
+  <hr>
+  <p style="color:blue">Browse All articles</p>
+  <hr>
+</ion-content>

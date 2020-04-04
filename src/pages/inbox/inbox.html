@@ -1,0 +1,86 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-navbar>
+        <ion-title>Inbox</ion-title>
+      </ion-navbar>
+    </ion-toolbar>
+  
+</ion-header>
+
+<ion-content padding>
+         <ion-row>
+         <ion-col>
+         <button ion-button icon-start clear small block (click)=" goto_friends()">
+         <div style="text-align:right;padding: 20px;">friends</div>
+        </button>
+        </ion-col>
+
+        <ion-col>
+           <button ion-button icon-end clear small block (click)="goto_new_group()">
+            <div >New Group</div>
+            </button>
+          </ion-col>
+
+  </ion-row>
+        
+   
+  <ion-list>
+
+    <ion-item no-lines>
+      <ion-avatar item-start>
+        <img src="assets/imgs/test.png">
+      </ion-avatar>
+      <hr>
+      <h2>xyz send you a friend request </h2>
+      <p>1 pending request</p>
+
+    </ion-item>
+    <br>
+    <ion-icon name="logo-youtube" class="logo"></ion-icon>
+    <b>YouTube</b>
+    <p><b>Introducing a new way to share</b>
+      <br>
+      1 month ago</p>
+  </ion-list>
+  <hr>
+  <p>You may know </p>
+
+  <ion-scroll scrollX="true">
+    <img class="circle-pic" src="https://placeimg.com/640/480/people" (click)="presentActionSheet()"/>
+
+    <img class="circle-pic" src="https://placeimg.com/640/480/people" />
+
+    <img class="circle-pic" src="https://placeimg.com/640/480/people" />
+
+
+    <img class="circle-pic" src="https://placeimg.com/640/480/people" />
+
+
+    <img class="circle-pic" src="https://placeimg.com/640/480/people" />
+
+
+    <img class="circle-pic" src="https://placeimg.com/640/480/people" />
+
+
+    <img class="circle-pic" src="https://placeimg.com/640/480/people" />
+
+
+    <img class="circle-pic" src="https://placeimg.com/640/480/people" />
+
+
+    <img class="circle-pic" src="https://placeimg.com/640/480/people" />
+
+
+    <img class="circle-pic" src="https://placeimg.com/640/480/people" />
+
+    <img class="circle-pic" src="https://placeimg.com/640/480/people" />
+
+
+    <img class="circle-pic" src="https://placeimg.com/640/480/people" />
+
+
+    <img class="circle-pic" src="https://placeimg.com/640/480/people" />
+
+
+  </ion-scroll>
+</ion-content>

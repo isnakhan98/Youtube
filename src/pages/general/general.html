@@ -1,0 +1,87 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>General</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+
+    <ion-item>
+      <ion-label>
+        <h5>Remind me to take a break</h5>
+      </ion-label>
+      <ion-toggle [(ngModel)]="pepperoni"></ion-toggle>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>
+        <h5>Dark Theme</h5>
+        <p>Enable dark theme throughout the app</p>
+      </ion-label>
+      <ion-toggle [(ngModel)]="sausage"></ion-toggle>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>
+        <h5>Light mobile data usage</h5>
+        <p>Only stream HD video on wi-Fi</p>
+      </ion-label>
+      <ion-toggle [(ngModel)]="mushrooms"></ion-toggle>
+    </ion-item>
+
+    <ion-item>
+      <h5>Double-tap to seek</h5>
+      <ion-label stacked>
+        <h2><b>Double-tap to seek</b></h2>
+      </ion-label>
+      <ion-select [(ngModel)]="gaming">
+        <ion-option value="5">5 Seconds</ion-option>
+        <ion-option value="10">10 Seconds</ion-option>
+        <ion-option value="15">15 Seconds</ion-option>
+        <ion-option value="20">20 Seconds</ion-option>
+        <ion-option value="30">30 Seconds</ion-option>
+        <ion-option value="60">60 Seconds</ion-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item>
+      <ion-label stacked>
+        <h2><b>Uploads Quality</b></h2>
+        <p>Specify network prefrences for Uploads</p>
+      </ion-label>
+      <ion-select [(ngModel)]="gaming">
+        <ion-option value="nes">360p</ion-option>
+        <ion-option value="n64">480p</ion-option>
+        <ion-option value="ps">720p</ion-option>
+        <ion-option value="genesis">1080p</ion-option>
+        <ion-option value="saturn">Orignal</ion-option>
+      </ion-select>
+
+    </ion-item>
+
+    <ion-item>
+      <p>Location</p>
+      <p>Change content shown to you based on country</p>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>
+        <h5>Restricted Mode</h5>
+        <p>Restricted Mode can help hide videos with<br> potentionally mature content. No
+          filter is<br> 100% accurate, but it should help you <br>avoid most of this type of content
+        </p>
+      </ion-label>
+      <ion-toggle [(ngModel)]="khan"></ion-toggle>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>
+        <h5>Enable stats for nerds</h5>
+      </ion-label>
+      <ion-toggle [(ngModel)]="isna"></ion-toggle>
+    </ion-item>
+
+  </ion-list>
+</ion-content>

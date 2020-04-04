@@ -1,0 +1,44 @@
+page-inbox {
+
+}
+
+ion-scroll {
+    white-space: nowrap;
+    height: 500px;
+}
+
+.image {
+    height: 3vw; 
+    width: 3vw; 
+   border: 5px solid #fff;
+   border-radius: 25%;
+   box-shadow: 0 0 5px gray;
+   display: inline-block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.circle-pic{
+   width:850px;
+   height:55px;
+   -webkit-border-radius: 30%;
+   border-radius: 330%;
+}
+
+.div.scrollmenu {
+    background-color: aliceblue;
+    overflow: auto;
+    white-space: nowrap;
+  }
+
+  .div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+
+  .div.scrollmenu a:hover {
+    background-color: #777;
+  }

@@ -1,0 +1,45 @@
+
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>trending</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-card *ngFor="let v of videos">
+     
+    <img [src]="v.image" (click)="openDetailScreen()">
+    <ion-card-content>
+      <ion-card-title>
+        {{v.title}}
+        </ion-card-title>
+      <p>
+          {{v.description}}
+      </p>
+    </ion-card-content>
+    
+    <!--ion-row>
+      <ion-col>
+        <button ion-button icon-start clear small>
+          <ion-icon name="thumbs-up"></ion-icon>
+          <div>12 Likes</div>
+        </button>
+      </ion-col>
+      <ion-col>
+        <button ion-button icon-start clear small>
+          <ion-icon name="text"></ion-icon>
+          <div>4 Comments</div>
+        </button>
+      </ion-col>
+      <ion-col center text-center>
+        <ion-note>
+          11h ago
+        </ion-note>
+      </ion-col>
+    </ion-row-->
+
+  </ion-card>
+</ion-content>
